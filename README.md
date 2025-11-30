@@ -21,8 +21,13 @@ to
 
 11/29 Just finished learning the basics of C++... Gonna start tackling this simulation thing. Plan:
 -Create an ideal gas chamber with variable T, p, V
--Create a rigid body sphere that can move around discretized space
+-Create a rigid body sphere with adjustable position discretized space
 >Use simpson's integration, euler integration, RK4, and gaussian quadrature all in one
 -Create a poisson solver that can solve the electric field at each time step
 >Finite differencing, forward + backward
 >Matrix solver libraries
+
+
+11/30
+Had to wrestle with git on the computer. Had to change the system environment variable PATH to include C:\Program Files\Git\cmd\ and C:\Program Files\Git\bin\ this worked to get git recognized in powershell but had difficulty on VSCode. was fixed when I simply opened git bash terminal instead. 
+Have a good amount setup to obtain the finite differencing matrix. Once thats done, it should be pretty simple to generalize to V and E fields. Modelling this thing was tough but rewarding. 
